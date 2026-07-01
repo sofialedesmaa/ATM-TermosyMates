@@ -1,0 +1,80 @@
+:root {
+    --rosa-1: #FDF4F7;
+    --rosa-2: #FDF0F4;
+    --rosa-3: #EB5A97;
+    --rosa-4: #D95C8A;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.bg-brand {
+    background-color: var(--rosa-3) !important;
+}
+
+.bg-pink-soft {
+    background: var(--rosa-2) !important;
+}
+
+nav .bg-pink-soft:hover,
+nav .bg-pink-soft.active {
+    background: var(--rosa-4) !important;
+    border-color: var(--rosa-4) !important;
+    color: #fff !important;
+}
+
+.main-nav > div {
+    flex: 1 1 96px;
+    max-width: 150px;
+}
+
+.main-nav .btn {
+    font-size: 0.78rem;
+    padding-inline: 0.5rem;
+    white-space: nowrap;
+}
+
+.text-brand svg {
+    max-width: 38vw;
+}
+
+.text-brand {
+    color: var(--rosa-3) !important;
+}
+
+.text-justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.btn-brand {
+    background: var(--rosa-3);
+    border-color: var(--rosa-3);
+    color: #fff;
+}
+
+.btn-brand:hover {
+    background: var(--rosa-4);
+    border-color: var(--rosa-4);
+}
+
+.btn-outline-secondary {
+    --bs-btn-color: var(--rosa-4);
+    --bs-btn-border-color: var(--rosa-4);
+    --bs-btn-hover-bg: var(--rosa-4);
+    --bs-btn-hover-border-color: var(--rosa-4);
+    --bs-btn-active-bg: var(--rosa-4);
+    --bs-btn-active-border-color: var(--rosa-4);
+}
+
+@media (min-width: 768px) {
+    .main-nav > div {
+        flex: 1 1 0;
+        max-width: none;
+    }
+
+    .main-nav .btn {
+        font-size: 1rem;
+    }
+}
