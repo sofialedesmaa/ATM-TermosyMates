@@ -11,7 +11,7 @@ const productos = [
         nombre: "Vaso Cafetero Doble Pico",
         precio: 19500,
         precioOriginal: 23000,
-        imagen: "Imagenes/PRODUCTOS/vasocafeterodoblepico.png",
+        imagen: "vasocafeterodoblepico.png",
         envioGratis: true
     },
     {
@@ -19,7 +19,7 @@ const productos = [
         nombre: "Mate Listo 1Lt",
         precio: 23800,
         precioOriginal: 28000,
-        imagen: "Imagenes/PRODUCTOS/matelisto.png",
+        imagen: "matelisto.png",
         envioGratis: true
     },
     {
@@ -27,7 +27,7 @@ const productos = [
         nombre: "Vaso Cafetero 500Ml",
         precio: 19500,
         precioOriginal: 23000,
-        imagen: "Imagenes/PRODUCTOS/vasoCafetero.jpeg",
+        imagen: "vasoCafetero.jpeg",
         envioGratis: true
     },
     {
@@ -35,7 +35,7 @@ const productos = [
         nombre: "Termo Stanley 1.2Lt",
         precio: 25000,
         precioOriginal: 30000,
-        imagen: "Imagenes/PRODUCTOS/termoStanley.png",
+        imagen: "termoStanley.png",
         envioGratis: true
     },
     {
@@ -43,7 +43,7 @@ const productos = [
         nombre: "Mate de Calabaza",
         precio: 15300,
         precioOriginal: 18000,
-        imagen: "Imagenes/PRODUCTOS/mateCalabaza.png",
+        imagen: "mateCalabaza.png",
         envioGratis: true
     },
     {
@@ -51,7 +51,7 @@ const productos = [
         nombre: "Termo 1Lt + Mate de Acero",
         precio: 34000,
         precioOriginal: 40000,
-        imagen: "Imagenes/PRODUCTOS/termo1ltymate.jpeg",
+        imagen: "termo1ltymate.jpeg",
         envioGratis: true
     },
     {
@@ -59,7 +59,7 @@ const productos = [
         nombre: "Vaso con Temporizador",
         precio: 23800,
         precioOriginal: 28000,
-        imagen: "Imagenes/PRODUCTOS/vasoTemporizador.png",
+        imagen: "vasoTemporizador.png",
         envioGratis: true
     },
     {
@@ -67,7 +67,7 @@ const productos = [
         nombre: "Mate Imperial",
         precio: 25500,
         precioOriginal: 30000,
-        imagen: "Imagenes/PRODUCTOS/mateImperial.png",
+        imagen: "mateImperial.png",
         envioGratis: true
     }
 ];
