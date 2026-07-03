@@ -11,7 +11,7 @@ const productos = [
         nombre: "Vaso Cafetero Doble Pico",
         precio: 19500,
         precioOriginal: 23000,
-        imagen: "vasocafeterodoblepico.png",
+        imagen: "Imagenes/PRODUCTOS/vasocafeterodoblepico.png",
         envioGratis: true
     },
     {
@@ -19,7 +19,7 @@ const productos = [
         nombre: "Mate Listo 1Lt",
         precio: 23800,
         precioOriginal: 28000,
-        imagen: "matelisto.png",
+        imagen: "Imagenes/PRODUCTOS/matelisto.png",
         envioGratis: true
     },
     {
@@ -27,7 +27,7 @@ const productos = [
         nombre: "Vaso Cafetero 500Ml",
         precio: 19500,
         precioOriginal: 23000,
-        imagen: "vasoCafetero.jpeg",
+        imagen: "Imagenes/PRODUCTOS/vasoCafetero.jpeg",
         envioGratis: true
     },
     {
@@ -35,7 +35,7 @@ const productos = [
         nombre: "Termo Stanley 1.2Lt",
         precio: 25000,
         precioOriginal: 30000,
-        imagen: "termoStanley.png",
+        imagen: "Imagenes/PRODUCTOS/termoStanley.png",
         envioGratis: true
     },
     {
@@ -43,7 +43,7 @@ const productos = [
         nombre: "Mate de Calabaza",
         precio: 15300,
         precioOriginal: 18000,
-        imagen: "mateCalabaza.png",
+        imagen: "Imagenes/PRODUCTOS/mateCalabaza.png",
         envioGratis: true
     },
     {
@@ -51,7 +51,7 @@ const productos = [
         nombre: "Termo 1Lt + Mate de Acero",
         precio: 34000,
         precioOriginal: 40000,
-        imagen: "termo1ltymate.jpeg",
+        imagen: "Imagenes/PRODUCTOS/termo1ltymate.jpeg",
         envioGratis: true
     },
     {
@@ -59,7 +59,7 @@ const productos = [
         nombre: "Vaso con Temporizador",
         precio: 23800,
         precioOriginal: 28000,
-        imagen: "vasoTemporizador.png",
+        imagen: "Imagenes/PRODUCTOS/vasoTemporizador.png",
         envioGratis: true
     },
     {
@@ -67,7 +67,7 @@ const productos = [
         nombre: "Mate Imperial",
         precio: 25500,
         precioOriginal: 30000,
-        imagen: "mateImperial.png",
+        imagen: "Imagenes/PRODUCTOS/mateImperial.png",
         envioGratis: true
     }
 ];
@@ -136,30 +136,30 @@ function mostrarCarrito() {
             <div class="col-lg-12">
                 <div class="card shadow-sm mb-4">
                     <div class="row g-0 align-items-center">
-                        <div class="col-md-3 text-center">
+                        <div class="col-4 col-md-3 text-center align-self-center">
                             <img
                                 src="${producto.imagen}"
-                                class="img-fluid rounded-start p-3"
+                                class="img-fluid rounded-start p-2 p-md-3"
                                 alt="${producto.nombre}">
                         </div>
 
-                        <div class="col-md-5 p-3 text-center text-md-start">
-                            <h5 class="card-title fw-bold mb-3">
+                        <div class="col-8 col-md-5 p-3 text-start">
+                            <h5 class="card-title fw-bold mb-1 fs-6 fs-md-5">
                                 ${producto.nombre}
                             </h5>
 
-                            <p class="text-brand fw-semibold fs-4">
+                            <p class="text-brand fw-semibold fs-5 fs-md-4 mb-2">
                                 $${producto.precio}
                             </p>
 
                             <button
-                                class="btn text-secondary text-decoration-underline btn-eliminar"
+                                class="btn p-0 btn-sm text-secondary text-decoration-underline btn-eliminar"
                                 data-id="${producto.id}">
                                 Eliminar
                             </button>
                         </div>
 
-                        <div class="col-md-3 d-flex flex-column align-items-stretch align-items-md-center gap-2 p-3 p-md-4">
+                        <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-center align-items-center p-3 pt-0 pt-md-4">
 
                             <select
                                 class="form-select form-select-sm cantidad"
