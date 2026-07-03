@@ -25,7 +25,7 @@ nav .bg-pink-soft.active {
 }
 
 .main-nav > div {
-    flex: 1 1 96px;
+    width: 100%;
     max-width: 150px;
 }
 
@@ -76,5 +76,16 @@ nav .bg-pink-soft.active {
 
     .main-nav .btn {
         font-size: 1rem;
+    }
+}
+
+.banner-descuento {
+    font-size: 0.65rem;
+    white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+    .banner-descuento {
+        font-size: 0.875em;
     }
 }
